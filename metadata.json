@@ -1,0 +1,13 @@
+{
+  "name": "puppet-searchsploit",
+  "version": "0.1.0",
+  "author": "l50",
+  "summary": "Install searchsploit on Kali",
+  "license": "MIT",
+  "source": "https://github.com/l50/puppet-searchsploit",
+  "project_page": "https://github.com/l50/puppet-searchsploit",
+  "issues_url": "https://github.com/l50/puppet-searchsploit",
+  "dependencies": [
+    {"name":"puppetlabs/vcsrepo"}
+  ]
+}
