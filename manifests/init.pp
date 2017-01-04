@@ -54,7 +54,7 @@ class searchsploit(
   file { $symlink_location:
     ensure => 'link',
     target => "${install_location}/searchsploit",
-  } ->
+  }
 
   if $auto_update {
     cron { 'update_searchsploit':
